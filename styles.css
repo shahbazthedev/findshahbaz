@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+body {
+    padding-bottom: 90px;
+}
+
+
+.navbar-nav a{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+
+.container {
+  padding: 0px;
+}
+
+.ml-auto {   
+    margin-left: auto !important;
+}
+
+.mt {
+    margin-top: 300px;
+}
+
+.mt-s {
+    margin-top: 120px;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.p-text {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.section-last-h3 {
+    font-size: 1.5rem;
+}
+
+.section-last-p {
+    font-size:1.3rem;
+    line-height: 1.5;
+}
+
+.h4-e {
+    font-size: 1.2rem;
+    line-height: 1;
+    color:red;
+    font-weight: bold;
+}
+
+.h-text {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.s-p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#links a {
+    font-size: 2rem;
+    margin: 20px;
+    color: black;
+}
+
+#links a:hover{
+    color: red;
+}
+
+.section-1-h1{
+    font-weight: bold;
+    font-size: 3rem;
+  
+}
+
+.section-1-h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.section-1-p {
+    font-size: 1.3rem;
+}
+
+#em {
+   margin-left: 30px;
+   margin-right: 70px;
+  
+}
+
+
+#contact-wrap {
+    position: absolute;
+    top: 295%;
+    left: 45%;
+    width: 60em;
+    margin: 3em auto;
+    background-color: rgb(46, 45, 45);
+    padding: 2em;
+  }
+  
+  
+  .input-block {
+    color: white;
+  }
+   
+  label[for=first-name]{
+  font-weight: 500;
+  }
+  
+  label[for=last-name]{
+    font-weight: 500;
+    }
+  
+    label[for=email]{
+      font-weight: 500;
+      padding-top:20px;
+      }
+  
+      label[for=budget]{
+        font-weight: 500;
+        padding-top:20px;
+        }
+  
+        label[for=description]{
+          font-weight: 500;
+          padding-top:20px;
+          }
+  
+          .square-button {
+            margin-top: 20px;
+            color: rgb(46, 45, 45);
+            padding: 3px 10px;
+          }
+
+
+@media only screen and (max-width: 600px) {
+          #services {
+              margin-left: 20px;
+          }
+
+
+          #skills {
+            margin-left: 20px;
+        }
+
+        #experience {
+            margin-left: 20px;
+        }
+
+        #contact {
+            margin-left: 20px;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        #main {
+            margin-left: 10px;
+        }
+        #projects{
+            margin-left: 10px;
+        }
+
+          }   
