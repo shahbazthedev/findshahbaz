@@ -6,6 +6,11 @@
     font-family: 'Rubik', sans-serif;
    
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: visible;
+}
 
 body {
     padding-bottom: 90px;
@@ -153,6 +158,24 @@ body {
             padding: 3px 10px;
           }
 
+          .et{
+              margin-top: 70px;
+          }
+
+          #scrolltp {
+            color: white;
+            background: rgba(0, 0, 0, 0.363);
+            padding: 15px;
+            border-radius: 50%;
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+            cursor: pointer;
+            transition: opacity 0.5s;
+        }
+        
+
+
 
 @media only screen and (max-width: 600px) {
           #services {
@@ -182,5 +205,8 @@ body {
         #projects{
             margin-left: 10px;
         }
+        .p-text {
+            font-size: 1.5rem;
+        }
 
-          }   
+          }     
