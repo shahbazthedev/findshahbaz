@@ -20,3 +20,10 @@ window.addEventListener ("scroll" , function (){
         scrolltp.style.opacity = 0;
     }
 })
+
+
+function dark (){
+    window.alert("Submitted");
+}
+
+
