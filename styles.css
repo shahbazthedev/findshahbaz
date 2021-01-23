@@ -173,7 +173,11 @@ body {
             cursor: pointer;
             transition: opacity 0.5s;
         }
-        
+
+        #dark {
+        margin-top: 10px;
+        width: 150px;
+        } 
 
 
 
