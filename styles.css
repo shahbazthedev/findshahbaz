@@ -220,7 +220,7 @@ body {
  }     
 
 .img-fluid{
-    transition: transform .2s;
+    transition: transform .3s;
 }
 
 .img-fluid:hover{
