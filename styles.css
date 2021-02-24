@@ -217,4 +217,13 @@ body {
             font-size: 1.5rem;
         }
 
-          }     
+ }     
+
+.img-fluid{
+    transition: transform .2s;
+}
+
+.img-fluid:hover{
+transform: scale(1.05);
+cursor: pointer;
+}
